@@ -1,0 +1,16 @@
+# Streamlit app config (placed at .streamlit/config.toml)
+
+[theme]
+# 코드에서 이미 다크 스타일을 적용하지만, 기본 테마도 다크로 고정
+base = "dark"
+primaryColor = "#22D3EE"
+backgroundColor = "#0E1117"
+textColor = "#E6EDF3"
+
+[client]
+# 사이드바 탐색 토글(원하면 false)
+showSidebarNavigation = true
+
+[browser]
+# 익명 사용 통계 전송 비활성화(선택)
+gatherUsageStats = false
